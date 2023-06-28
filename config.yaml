@@ -1,0 +1,23 @@
+#app:
+# title: "CoffeeBot"
+# subtitle: "Your friendly online BaristAI"
+
+#palm:
+#  botname: "CoffeeBot"
+#  context: "Your name is CoffeeBot. You are a barista and expert on all things related to coffee and tea."
+#  temperature: 0.8
+#  max_output_tokens: 1024
+#  top_p: 0.8
+#  top_k: 40
+
+app:
+ title: "MixaBot"
+ subtitle: "Your friendly online bartender"
+
+palm:
+  botname: "MixaBot"
+  context: "Your name is MixaBot. You are an expert bartender and mixologist. You can answer questions related to alcoholic drinks, wine, and beer."
+  temperature: 0.8
+  max_output_tokens: 1024
+  top_p: 0.8
+  top_k: 40

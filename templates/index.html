@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+        <h1>{{model.title}}</h1>
+        <h2>{{model.subtitle}}</h2>
+       
+    </div>
+</div>
+<div class="container">
+    <div id="responses" class="alert alert-success" role="alert">
+       {{model.message}}
+    </div>
+
+    <form method="POST">
+    <div class="form-group">
+        <label for="input">Ask {{model.botname}}:</label>
+        <input type="text" value="{{model.input}}" id="input" name="input" class="form-control" />
+    </div>
+    <div><input type="submit" class="btn btn-primary"></div>
+    </form>
+
+</div>
+{% endblock %}

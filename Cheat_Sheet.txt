@@ -1,0 +1,12 @@
+pip install virtualenv
+virtualenv ~/palm-env
+source ~/palm-env/bin/activate
+
+# Change to the folder where your progam is. 
+pip install -r requirements.txt
+
+
+# To build the image
+gcloud builds submit --tag=gcr.io/vertext-ai-dar/mixabot:v0.2 .
+
+
