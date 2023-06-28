@@ -43,7 +43,7 @@ def main():
 
 
 def get_response(input):
-    vertexai.init(project="vertext-ai-dar", location="us-central1")
+    vertexai.init(location="us-central1")
     parameters = {
         "temperature": TEMPERATURE,
         "max_output_tokens": MAX_OUTPUT_TOKENS,
