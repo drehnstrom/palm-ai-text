@@ -61,7 +61,7 @@ def get_response(input):
         request.format(CONTEXT, input),
         **parameters
     )
-    return response
+    return response.text
     
 
 if __name__ == '__main__':
